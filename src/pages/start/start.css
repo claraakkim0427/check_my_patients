@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+}
+
+.time-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.date {
+    font-size: 18px;
+    color: #444;
+}
+
+.time {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.notifications {
+    text-align: left;
+}
+
+.notification-btn {
+    width: 100%;
+    background-color: #a8bbc6; 
+    border: none;
+    text-align: left; 
+    font-size: 18px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 80px;
+    line-height: 1.5;
+    color: white; 
+}
+
+.bold-text {
+    font-weight: bold;
+    color: white;
+}
+
+.regular-text {
+    font-weight: normal;
+    color: white;
+}

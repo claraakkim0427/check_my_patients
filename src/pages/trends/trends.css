@@ -1,0 +1,82 @@
+.trends-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+.trends-header {
+    background-color: #1a6695;
+    color: white;
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-box {
+    width: 90%;
+    border: 1px solid black;
+    text-align: left;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: white;
+}
+
+.vitals-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.vitals-table th, .vitals-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.vitals-table th {
+    background-color: #e0e0e0;
+}
+
+.critical {
+    color: red;
+    font-weight: bold;
+}
+
+.low {
+    color: green;
+    font-weight: bold;
+}
+
+.trend-graph {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.blue-btn {
+    background-color: #64aad6 !important;
+    color: white !important;
+}
+
+.gray-btn {
+    background-color: #a8bbc6 !important;
+    color: white !important;
+}
+
+.black-btn {
+    background-color: black !important;
+    color: white !important;
+}

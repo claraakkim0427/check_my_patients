@@ -1,0 +1,46 @@
+.modify-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+.modify-header {
+    background-color: #a8bbc6;
+    color: white;
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-box {
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.treatment-input {
+    width: 100%;
+    border: 1px solid black;
+    font-style: italic;
+}
+
+.outline-btn {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
